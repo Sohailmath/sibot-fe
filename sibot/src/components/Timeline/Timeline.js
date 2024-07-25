@@ -29,11 +29,6 @@ export default function Timeline({}) {
               last={idx === steps.length - 1}
             />
           ))}
-          <div className="flex gap-4">
-            <Button className="bg-blue-600 text-white" asChild>
-              <Link href={"#contact"}>Contact Us</Link>
-            </Button>
-          </div>
         </div>
         <Image
           src="/assets/images/robot.jpg"

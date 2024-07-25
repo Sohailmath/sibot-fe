@@ -8,7 +8,7 @@ import LandingSvg from "./LandingSvg/landingsvg";
 export default function Landing() {
   return (
     <section className="container h-lvh mx-auto bg-white text-gray-500 ">
-      <div className="flex flex-row items-center justify-center h-full md:px-10">
+      <div className="flex flex-row items-center justify-center h-full">
         <div className="w-full  flex flex-col gap-3">
           <SlidingInComponent>
             <h1 className="text-5xl text-black font-bold">Welcome to SiBot</h1>
