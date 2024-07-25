@@ -30,7 +30,7 @@ export default function Timeline({}) {
             />
           ))}
           <div className="flex gap-4">
-            <Button className="bg-my-primary text-white" asChild>
+            <Button className="bg-blue-600 text-white" asChild>
               <Link href={"#contact"}>Contact Us</Link>
             </Button>
           </div>
