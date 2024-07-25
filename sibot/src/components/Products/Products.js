@@ -102,11 +102,11 @@ const SingleProduct = ({ image, title, id, shortDescription, top = false }) => {
           </div>
         </CardHeader>
         <CardFooter>
-          <Link href={`/products/${id}`}>
+          {/* <Link href={`/products/${id}`}>
             <Button className="w-full hover:bg-[#5e84aa] hover:text-white transition-all            ">
               Learn More
             </Button>
-          </Link>
+          </Link> */}
         </CardFooter>
       </Card>
     </div>
