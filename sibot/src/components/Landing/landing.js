@@ -1,3 +1,5 @@
+import { Button } from "../ui/button";
+
 export default function Landing() {
   return (
     <section className="container h-lvh mx-auto bg-white text-gray-500">
@@ -10,9 +12,7 @@ export default function Landing() {
             itaque numquam saepe maiores distinctio odio natus necessitatibus
             voluptatibus exercitationem veritatis quibusdam similique?
           </p>
-          <button className="px-2 rounded bg-black hover:bg-slate-800 text-white w-fit py-1">
-            CTA Button
-          </button>
+          <Button className="w-fit">CTA Link</Button>
         </div>
         <div className="w-full border border-black">Welcome to sibot</div>
       </div>
