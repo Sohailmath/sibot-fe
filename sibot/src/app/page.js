@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/footer";
 import Landing from "@/components/Landing/landing";
 import Navbar from "@/components/Navbar/Navbar";
 import Team from "@/components/Team/Team";
@@ -18,6 +19,7 @@ function Page() {
       </div>
       <Timeline />
       <Team />
+      <Footer />
     </div>
   );
 }

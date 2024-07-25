@@ -19,11 +19,7 @@ export default function Landing() {
               chatbots designed to revolutionize customer support and enhance
               user experiences. Our solutions provide quick answers and smart
               solutions, ensuring efficiency, cost reduction, and consistent
-              quality in customer interactions. As a NUST spin-off, we leverage
-              cutting-edge technology and a dedicated team to deliver seamless
-              integration, customization, and advanced analytics. Join us in
-              transforming the way businesses engage with their customers, one
-              intelligent conversation at a time.
+              quality in customer interactions.
             </p>
           </SlidingInComponent>
           <SlidingInComponent delay={0.2}>
