@@ -64,7 +64,7 @@ const Navbar = () => {
                 <Link
                   key={idx}
                   href={link.path}
-                  className="capitalize text-gray-400 transition-all hover:text-[#5e84aa]  nav-link font-normal"
+                  className="capitalize text-gray-500 transition-all hover:text-[#5e84aa]  nav-link font-normal"
                 >
                   {link.title}
                 </Link>
