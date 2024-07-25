@@ -30,10 +30,10 @@ export default function Landing() {
             <Button className="w-fit">Contact Us</Button>
           </SlidingInComponent>
         </div>
-        <div className="w-full flex justify-end">
+        <div className="w-3/4 flex justify-end">
           {/* <LandingSvg /> */}
           <SlidingInComponent>
-            <Image src={"/assets/images/robot.jpg"} width={400} height={400} />
+            <Image src={"/assets/images/robot.jpg"} width={450} height={450} />
           </SlidingInComponent>
         </div>
         {/* <div className="w-full border border-black flex flex-col">
