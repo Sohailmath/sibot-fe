@@ -1,25 +1,28 @@
+"use client";
+
 import Image from "next/image";
+import SlidingInComponent from "../SlidingInComponent/slidingin";
 
 const teamMembers = [
   {
     name: "Dr Soahil Iqbal",
     image: "/assets/images/siqbal.jpeg",
-    role: "PI & CEO",
+    role: "CEO and Founder",
   },
   {
     name: "Dr Qurat Ul Ain",
     image: "/assets/images/qain.jpeg",
-    role: "Team Lead and Scientist",
+    role: "Cheif Scientist and Co-Founder",
   },
   {
     name: "Khizer Tariq",
     image: "/assets/images/ktariq.jpeg",
-    role: "CTO",
+    role: "CTO and Co-Founder",
   },
   {
     name: "Ali Safdar",
     image: "/assets/images/awais.jpeg",
-    role: "CPO",
+    role: "CPO and Co-Founder",
   },
 ];
 
@@ -31,15 +34,19 @@ const Team = () => {
           Our Team
         </h2>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 mt-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. when an unknown printer took a galley of type and scrambled
-          it to make a type specimen book. It has survived not only five
-          centuries
+          Our Team is motivated to provide easy access to any information
+          quickly and smartly.
         </p>
       </div>
       <div class="flex flex-wrap">
         {teamMembers.map((member, idx) => (
-          <SingleTeamMember key={idx} {...member} />
+          <SlidingInComponent
+            delay={idx * 0.1}
+            direction="left"
+            class={"p-2 lg:w-1/3 md:w-1/2 w-full"}
+          >
+            <SingleTeamMember key={idx} {...member} />
+          </SlidingInComponent>
         ))}
       </div>
     </div>
@@ -50,7 +57,7 @@ export default Team;
 
 const SingleTeamMember = ({ name, image, role }) => {
   return (
-    <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+    <div className="p-2 w-full">
       <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-gray-100 tranis hover:shadow-lg hover:bg-gray-200">
         <Image
           width={64}

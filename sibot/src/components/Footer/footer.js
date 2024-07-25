@@ -20,7 +20,7 @@ export default function Footer() {
           <ul className="flex w-1/2 flex-row gap-5 ">
             {quickLinks.map((link, idx) => {
               return (
-                <SlidingInComponent delay={idx * 0.1}>
+                <SlidingInComponent delay={idx * 0.1} direction="left">
                   <li className="group w-fit">
                     <a href={link.path} className="relative">
                       <span className="font-light">{link.title}</span>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
   Card,
@@ -10,6 +12,7 @@ import {
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import SlidingInComponent from "../SlidingInComponent/slidingin";
 
 const products = [
   {
@@ -68,7 +71,9 @@ const Products = () => {
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 auto-rows-fr gap-y-4">
         {products.map((product, idx) => (
-          <SingleProduct key={idx} {...product} />
+          <SlidingInComponent delay={idx * 0.1}>
+            <SingleProduct key={idx} {...product} />
+          </SlidingInComponent>
         ))}
       </div>
     </div>

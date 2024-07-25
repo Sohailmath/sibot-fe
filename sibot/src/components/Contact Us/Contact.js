@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
               marginheight="0"
               marginwidth="0"
               title="map"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.5688633456366!2d72.98747037532323!3d33.64241917331412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df972812b99c3b%3A0xef60183cceeb48c5!2sSEECS%20UG%20Block!5e0!3m2!1sen!2s!4v1721894041592!5m2!1sen!2s"
               width="100%"
               height="100%"
               frameborder="0"
@@ -23,10 +23,10 @@ const Contact = () => {
           <div className="container px-5 py-24 mx-auto flex">
             <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative  shadow-md">
               <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-                Feedback
+                Write to us
               </h2>
               <p className="leading-relaxed mb-5 text-gray-600">
-                Post-ironic portland shabby chic echo park, banjo fashion axe
+                Send us an email to get contacted by our specialists
               </p>
               <div className="relative mb-4">
                 <label for="email" className="leading-7 text-sm text-gray-600">
@@ -53,12 +53,12 @@ const Contact = () => {
                 ></textarea>
               </div>
               <Button className="w-full hover:bg-[#5e84aa] hover:text-white transition-all            ">
-                Submit
+                Send
               </Button>
-              <p className="text-xs text-gray-500 mt-3">
+              {/* <p className="text-xs text-gray-500 mt-3">
                 Chicharrones blog helvetica normcore iceland tousled brook viral
                 artisan.
-              </p>
+              </p> */}
             </div>
           </div>
         </section>
