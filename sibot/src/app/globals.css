@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.conatiner {
+  @apply max-w-7xl mx-auto px-4;
+}
