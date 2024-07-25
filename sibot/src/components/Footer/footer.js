@@ -32,7 +32,9 @@ export default function Footer() {
             })}
           </ul>
         </div>
-        <div className="text-gray-400 mt-10">Developed at HPC Lab Seecs</div>
+        <div className="text-gray-400 mt-10 w-full flex items-end justify-end">
+          Developed at HPC Lab Seecs
+        </div>
       </div>
     </section>
   );
