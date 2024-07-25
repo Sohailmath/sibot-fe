@@ -3,21 +3,21 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 
 const steps = [
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+  "Evaluation in education is time-consuming and labor-intensive for educators.",
+  "Automated grading and assessment offer many benefits to educators.",
+  "They help maintain consistency in evaluation.",
+  "They provide students with instant feedback for immediate improvement",
+  "Machine learning algorithms are commonly used for automated grading.",
+  "Automated grading may not be suitable for all assignments.",
+  "Ongoing monitoring and fine-tuning of AI algorithms are necessary.",
+  "Automated grading and assessment can revolutionize the educational evaluation process",
 ];
 
 export default function Timeline({}) {
   return (
-    <div className="container  py-4" id="about">
+    <div className="container  py-4" id="projects">
       <h2 className="text-xl underline underline-offset-8 mb-3  md:text-2xl lg:text-3xl font-bold text-gray-800 text-center">
-        How It Works
+        Automated Evaluation and Feedback
       </h2>
       <div className="flex items-center lg:items-start mt-5 flex-wrap lg:flex-nowrap">
         <div className="lg:w-3/5 md:w-1/2 md:pr-10 md:py-6 ">

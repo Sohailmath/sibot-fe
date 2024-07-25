@@ -8,6 +8,14 @@ function Page() {
     <div>
       <Navbar />
       <Landing />
+      <div
+        className="w-full py-4 h-96 bg-blue-900 grid place-items-center mb-6"
+        id="projects"
+      >
+        <h1 className="text-4xl text-white  font-bold text-center uppercase">
+          products
+        </h1>
+      </div>
       <Timeline />
       <Team />
     </div>
