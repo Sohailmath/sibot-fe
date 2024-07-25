@@ -31,7 +31,12 @@ export default function Landing() {
         <div className="w-3/4 flex justify-end">
           {/* <LandingSvg /> */}
           <SlidingInComponent>
-            <Image src={"/assets/images/robot.jpg"} width={450} height={450} />
+            <Image
+              src={"/assets/images/robot.jpg"}
+              width={450}
+              height={450}
+              alt="landing img"
+            />
           </SlidingInComponent>
         </div>
         {/* <div className="w-full border border-black flex flex-col">

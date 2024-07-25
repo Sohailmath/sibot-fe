@@ -42,9 +42,10 @@ const Team = () => {
         {teamMembers.map((member, idx) => (
           <SlidingInComponent
             delay={idx * 0.1}
+            key={idx}
             class={"p-2 lg:w-1/3 md:w-1/2 w-full"}
           >
-            <SingleTeamMember key={idx} {...member} />
+            <SingleTeamMember {...member} />
           </SlidingInComponent>
         ))}
       </div>
