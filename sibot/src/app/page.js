@@ -1,5 +1,11 @@
+import Navbar from "./_components/Navbar";
+
 function Page() {
-  return <div>Page</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default Page;
