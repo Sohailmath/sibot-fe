@@ -1,5 +1,5 @@
-import Navbar from "./_components/Navbar";
-import Landing from "./components/Landing/landing";
+import Landing from "@/components/Landing/landing";
+import Navbar from "@/components/Navbar/Navbar";
 
 function Page() {
   return (
