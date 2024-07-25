@@ -67,6 +67,9 @@
     @apply bg-background text-foreground;
   }
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .conatiner {
   @apply max-w-7xl mx-auto px-4;
