@@ -5,7 +5,7 @@ import SlidingInComponent from "../SlidingInComponent/slidingin";
 
 const teamMembers = [
   {
-    name: "Dr Soahil Iqbal",
+    name: "Dr Sohail Iqbal",
     image: "/assets/images/siqbal.jpeg",
     role: "CEO and Founder",
   },
