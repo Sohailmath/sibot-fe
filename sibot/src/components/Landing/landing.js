@@ -23,7 +23,9 @@ export default function Landing() {
             </p>
           </SlidingInComponent>
           <SlidingInComponent delay={0.2}>
-            <Button className="w-fit">Contact Us</Button>
+            <Button className="w-fit">
+              <a href="#contact-us">Contact Us</a>
+            </Button>
           </SlidingInComponent>
         </div>
         <div className="w-3/4 flex justify-end">
