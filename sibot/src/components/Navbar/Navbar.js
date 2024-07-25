@@ -42,7 +42,7 @@ const Navbar = () => {
             src={"/assets/images/logo.png"}
             width={150}
             height={50}
-            className="w-32 sm:w-auto sm:h-auto"
+            className="w-auto h-auto"
             alt="logo"
           />
         </Link>
@@ -73,12 +73,6 @@ const Navbar = () => {
             <div></div>
           </div>
         </div>
-        <Link
-          href={"/start"}
-          className="flex lg:hidden item-center transition-all text-gray-400 hover:text-[#5e84aa] border-l-2 border-[#5e84aa] px-3"
-        >
-          Start
-        </Link>
       </div>
     </div>
   );
