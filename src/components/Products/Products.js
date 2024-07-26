@@ -31,10 +31,28 @@ const products = [
       "Mouseeki (aka AI-driven Melodic Music) is an innovative musical toolkit designed to streamline and enhance music creation",
   },
   {
+    id: 2,
+    title: `Pakistan Contsitution Guide`,
+    shortDescription: `Pakistan Constitution Guide is a web app that provides an easy way to search and read the constitution of Pakistan. It is available both on web and android phones.`,
+    image: `/assets/images/p2.jpeg`,
+  },
+  {
+    id: 3,
+    title: `Tafheem ul Quran`,
+    shortDescription: `Tafheem ul Quran is a web app that provides an easy way to search and read the translation of Quran. It is available both on web and android phones.`,
+    image: "/assets/images/p3.jpeg",
+  },
+  {
     id: 4,
     title: `FreeFlowAI: A No Code Web App Builder`,
     shortDescription: `FreeFlowAI is an LLM-based no-code web app builder that converts feature descriptions into real-time code. With a drag-and-drop interface, it offers prompt-based coding, app styling, frontend-backend integration, and code download, streamlining web app creation.`,
     image: "/assets/images/p4.jpg",
+  },
+  {
+    id: 5,
+    title: `Fine Tune Llama 3 for your own Dataset`,
+    shortDescription: `Fine Tune Llama for your own Dataset is a web app that provides an easy way to fine tune Llama for your own dataset. It is available both on web and android phones.`,
+    image: `/assets/images/p5.jpeg`,
   },
 ];
 
@@ -50,7 +68,7 @@ const Products = () => {
           Reasearch Methodologies.
         </p>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 auto-rows-fr gap-y-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 auto-rows-fr gap-y-4">
         {products.map((product, idx) => (
           <SlidingInComponent key={idx} delay={idx * 0.1}>
             <SingleProduct {...product} />

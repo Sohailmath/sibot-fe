@@ -38,12 +38,12 @@ const Team = () => {
           quickly and smartly.
         </p>
       </div>
-      <div class="flex flex-wrap">
+      <div className="flex flex-wrap">
         {teamMembers.map((member, idx) => (
           <SlidingInComponent
             delay={idx * 0.1}
             key={idx}
-            class={"p-2 lg:w-1/3 md:w-1/2 w-full"}
+            className={"p-2 lg:w-1/3 md:w-1/2 w-full"}
           >
             <SingleTeamMember {...member} />
           </SlidingInComponent>
