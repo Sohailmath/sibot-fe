@@ -16,8 +16,9 @@ const products = [
     id: 0,
     image: "/assets/images/p0.jpeg",
     title: "NUST Help BOT",
-    shortDescription: `NUST Help Bot: A chatbot designed to help NUST students to find out the university policies easily. It is available both on web and android phones. Web: https://nust-help-bot.vercel.app/`,
+    shortDescription: `NUST Help Bot: A chatbot designed to help NUST students to find out the university policies easily. It is available both on web and android phones.`,
     top: true,
+    link: "https://nust-help-bot.vercel.app/",
   },
   {
     id: 1,
@@ -27,36 +28,16 @@ const products = [
       "Mouseeki (aka AI-driven Melodic Music) is an innovative musical toolkit designed to streamline and enhance music creation",
   },
   {
-    id: 2,
-    title: " Resource Allocation in IRS-Assisted Cell-Free MIMO Systems",
-    shortDescription:
-      "Optimizing energy efficiency and data coverage in IRS-assisted 6G networks using practical phase shift models to enhance performance and spectral efficiency.",
-    image: "/assets/images/p2.jpg",
-  },
-  {
-    id: 3,
-    shortDescription: `This project enhances IRS-assisted network performance in real-world environments, improving connectivity and data rates in high-density areas using intelligent reflecting surfaces and deep reinforcement learning.`,
-    title:
-      "Performance Analysis of IRS Assisted Networks in Real-World Environments",
-    image: "/assets/images/p3.jpg",
-  },
-  {
     id: 4,
     title: `FreeFlowAI: A No Code Web App Builder`,
     shortDescription: `FreeFlowAI is an LLM-based no-code web app builder that converts feature descriptions into real-time code. With a drag-and-drop interface, it offers prompt-based coding, app styling, frontend-backend integration, and code download, streamlining web app creation.`,
     image: "/assets/images/p4.jpg",
   },
-  {
-    id: 5,
-    title: `Multiple Carrier Frequency Offsets Estimation in Cooperative Networks: An Experimental Study`,
-    image: "/assets/images/p5.jpg",
-    shortDescription: `This project experimentally analyzes multiple carrier frequency offsets (CFOs) estimation in cooperative networks using the I-MUSIC algorithm on USRP platforms, enhancing wireless network robustness and capacity in varying channel conditions.`,
-  },
 ];
 
 const Products = () => {
   return (
-    <div className="container px-5 py-24 mx-auto" id="team">
+    <div className="container px-5 py-24 mx-auto" id="products">
       <div className="flex flex-col text-center w-full mb-20">
         <h2 className="text-xl underline underline-offset-8 mb-3  md:text-2xl lg:text-3xl font-bold text-gray-800 text-center">
           Our Products
@@ -79,7 +60,14 @@ const Products = () => {
 
 export default Products;
 
-const SingleProduct = ({ image, title, id, shortDescription, top = false }) => {
+const SingleProduct = ({
+  image,
+  title,
+  id,
+  shortDescription,
+  top = false,
+  link,
+}) => {
   return (
     <div className="p-2  w-full group h-full">
       <Card className="shadow-md group-hover:shadow-lg group-hover:bg-gray-200 transition-all h-full">
@@ -98,6 +86,16 @@ const SingleProduct = ({ image, title, id, shortDescription, top = false }) => {
             <CardTitle>{title}</CardTitle>
             <CardDescription className="mt-2">
               {shortDescription}
+              {link && (
+                <Link
+                  href={link}
+                  className="text-blue-500 hover:underline block mt-2"
+                  target="_blank"
+                  referrerPolicy="no-referrer"
+                >
+                  {link}
+                </Link>
+              )}
             </CardDescription>
           </div>
         </CardHeader>

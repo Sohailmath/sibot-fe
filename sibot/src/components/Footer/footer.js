@@ -5,7 +5,7 @@ import SlidingInComponent from "../SlidingInComponent/slidingin";
 export default function Footer() {
   const quickLinks = [
     { title: "About", path: "#about" },
-    { title: "Products", path: "#projects" },
+    { title: "Products", path: "#products" },
     { title: "Contact", path: "#contact" },
     { title: "Team", path: "#team" },
   ];
