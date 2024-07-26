@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
   Card,
@@ -10,6 +12,7 @@ import {
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import SlidingInComponent from "../SlidingInComponent/slidingin";
 
 const products = [
   {
@@ -43,15 +46,15 @@ const Products = () => {
           Our Products
         </h2>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 mt-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. when an unknown printer took a galley of type and scrambled
-          it to make a type specimen book. It has survived not only five
-          centuries
+          Our recent projects crafted with the help of State of the Art
+          Reasearch Methodologies.
         </p>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 auto-rows-fr gap-y-4">
         {products.map((product, idx) => (
-          <SingleProduct key={idx} {...product} />
+          <SlidingInComponent key={idx} delay={idx * 0.1}>
+            <SingleProduct {...product} />
+          </SlidingInComponent>
         ))}
       </div>
     </div>

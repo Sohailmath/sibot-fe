@@ -7,8 +7,8 @@ import LandingSvg from "./LandingSvg/landingsvg";
 
 export default function Landing() {
   return (
-    <section className="container h-lvh mx-auto bg-white text-gray-500 ">
-      <div className="flex flex-row items-center justify-center h-full">
+    <section className="container md:h-lvh mx-auto bg-white text-gray-500 ">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-end mt-0 md:mt-5 md:justify-center h-full">
         <div className="w-full  flex flex-col gap-3">
           <SlidingInComponent>
             <h1 className="text-5xl text-black font-bold">Welcome to SiBot</h1>
@@ -31,7 +31,12 @@ export default function Landing() {
         <div className="w-3/4 flex justify-end">
           {/* <LandingSvg /> */}
           <SlidingInComponent>
-            <Image src={"/assets/images/robot.jpg"} width={450} height={450} />
+            <Image
+              src={"/assets/images/robot.jpg"}
+              width={450}
+              height={450}
+              alt="landing img"
+            />
           </SlidingInComponent>
         </div>
         {/* <div className="w-full border border-black flex flex-col">
