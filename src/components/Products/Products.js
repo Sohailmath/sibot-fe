@@ -33,14 +33,16 @@ const products = [
   {
     id: 2,
     title: `Pakistan Contsitution Guide`,
-    shortDescription: `Pakistan Constitution Guide is a web app that provides an easy way to search and read the constitution of Pakistan. It is available both on web and android phones.`,
+    shortDescription: `Pakistan Constitution Guide is a web app that provides an easy way to search and read the constitution of Pakistan.`,
     image: `/assets/images/p2.jpeg`,
+    link: "https://pakistan-constitution.vercel.app/",
   },
   {
     id: 3,
     title: `Tafheem ul Quran`,
-    shortDescription: `Tafheem ul Quran is a web app that provides an easy way to search and read the translation of Quran. It is available both on web and android phones.`,
+    shortDescription: `Tafheem ul Quran is a web app that provides an easy way to search and read the translation of Quran.`,
     image: "/assets/images/p3.jpeg",
+    link: "https://tafhim-al-qur-an.vercel.app/",
   },
   {
     id: 4,
@@ -51,8 +53,9 @@ const products = [
   {
     id: 5,
     title: `Fine Tune Llama 3 for your own Dataset`,
-    shortDescription: `Fine Tune Llama for your own Dataset is a web app that provides an easy way to fine tune Llama for your own dataset. It is available both on web and android phones.`,
+    shortDescription: `Fine Tune Llama for your own Dataset is a web app that provides an easy way to fine tune Llama for your own dataset.`,
     image: `/assets/images/p5.jpeg`,
+    link: "https://huggingface.co/Ali-PYT/Llama3-8b-instruct-Meera",
   },
 ];
 
