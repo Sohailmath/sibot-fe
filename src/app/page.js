@@ -1,3 +1,4 @@
+import About from "@/components/About/about";
 import Contact from "@/components/Contact Us/Contact";
 import Footer from "@/components/Footer/footer";
 import Landing from "@/components/Landing/landing";
@@ -10,6 +11,7 @@ function Page() {
     <div>
       <Navbar />
       <Landing />
+      <About />
       <Products />
       <Contact />
       <Team />
