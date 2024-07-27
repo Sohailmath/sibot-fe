@@ -28,7 +28,7 @@ const products = [
     image: "/assets/images/p1.jpg",
     title: "Mouseeki",
     shortDescription:
-      "Mouseeki (aka AI-driven Melodic Music) is an innovative musical toolkit designed to streamline and enhance music creation",
+      "Mouseeki (aka AI-driven Melodic Music) is an innovative musical toolkit designed to create new poetry and music using AI",
   },
   {
     id: 2,
