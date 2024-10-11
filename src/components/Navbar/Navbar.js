@@ -40,8 +40,8 @@ const Navbar = () => {
         </div>
         <Link href={"/"} className="">
           <Image
-            src={"/assets/images/logo.png"}
-            width={150}
+            src={"/assets/images/logo.jpg"}
+            width={125}
             height={50}
             className="w-auto h-auto"
             alt="logo"
