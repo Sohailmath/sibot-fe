@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SiBot",
-  description: "A Discord bot for the Si community",
+  description: "Where Intelligence Meets Robotics",
 };
 
 export default function RootLayout({ children }) {
